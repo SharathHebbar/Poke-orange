@@ -1,0 +1,113 @@
+; dummy group
+	RGB 24, 14, 31
+	RGB 13, 07, 21
+	RGB 12, 03, 18
+	RGB 09, 03, 15
+
+; group 1 (Mandarin North)
+	RGB 00, 20, 10
+	RGB 00, 14, 10
+	RGB 09, 09, 17
+	RGB 05, 07, 13
+
+; group 2
+	RGB 12, 19, 00
+	RGB 06, 10, 00
+	RGB 06, 09, 07
+	RGB 04, 05, 06
+
+; group 3 (Moro Island)
+	RGB 23, 15, 31
+	RGB 16, 05, 31
+	RGB 12, 07, 17
+	RGB 08, 06, 10
+
+; group 4 (Kinnow Island)
+	RGB 00, 15, 31
+	RGB 00, 10, 20
+	RGB 00, 07, 16
+	RGB 00, 05, 10
+
+; group 5 (Mikan Island)
+	RGB 31, 19, 00
+	RGB 27, 10, 05
+	RGB 15, 07, 02
+	RGB 11, 04, 02
+
+; group 6 (Murcott Island, Mandarin South)
+	RGB 31, 10, 00
+	RGB 18, 06, 00
+	RGB 18, 05, 09
+	RGB 17, 08, 07
+
+; group 7
+	RGB 17, 27, 31
+	RGB 05, 15, 31
+	RGB 07, 08, 22
+	RGB 07, 07, 16
+
+; group 8 (Trovitopolis)
+	RGB 22, 14, 07
+	RGB 18, 09, 05
+	RGB 11, 07, 05
+	RGB 09, 04, 03
+
+; group 9
+	RGB 31, 08, 04
+	RGB 09, 09, 08
+	RGB 18, 05, 09
+	RGB 09, 09, 08
+
+; group 10
+	RGB 24, 14, 31
+	RGB 13, 07, 21
+	RGB 12, 03, 18
+	RGB 09, 03, 15
+
+; group 11 (Valencia Island)
+	RGB 18, 04, 12
+	RGB 12, 00, 09
+	RGB 09, 02, 09
+	RGB 06, 00, 06
+
+; group 12 (Tangelo Island)
+	RGB 28, 04, 03
+	RGB 22, 00, 00
+	RGB 14, 02, 02
+	RGB 11, 00, 00
+
+; group 13 (Sunburst Island)
+	RGB 30, 30, 00
+	RGB 26, 19, 00
+	RGB 15, 15, 00
+	RGB 13, 09, 00
+
+; group 14 (Golden Island)
+	RGB 25, 25, 00
+	RGB 20, 17, 08
+	RGB 12, 12, 00
+	RGB 10, 08, 06
+
+; group 15 (Pummelo Island)
+	RGB 04, 25, 23
+	RGB 00, 17, 17
+	RGB 02, 13, 14
+	RGB 00, 09, 09
+
+; group 16 (Kumquat Island)
+	RGB 16, 21, 26
+	RGB 07, 14, 21
+	RGB 05, 07, 15
+	RGB 04, 05, 11
+
+; group 17 (Hamlin Island)
+	RGB 00, 20, 10
+	RGB 00, 14, 10
+	RGB 09, 09, 17
+	RGB 05, 07, 13
+
+; group 18 (Shamouti Island)
+	RGB 00, 20, 10
+	RGB 00, 14, 10
+	RGB 09, 09, 17
+	RGB 05, 07, 13

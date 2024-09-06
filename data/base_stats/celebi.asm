@@ -1,0 +1,19 @@
+	db CELEBI ; 251
+
+	db 100, 100, 100, 100, 100, 100
+	;   hp  atk  def  spd  sat  sdf
+
+	db PSYCHIC, GRASS
+	db 45 ; catch rate
+	db NO_ITEM ; item 1
+	db MIRACLEBERRY ; item 2
+	db GENDERLESS ; gender
+	db 120 ; step cycles to hatch
+	dn 5 , 5 ; frontpic dimensions
+
+	db MEDIUM_SLOW ; growth rate
+	dn NO_EGGS, NO_EGGS ; egg groups
+
+	; tmhm
+	tmhm WATER_PULSE, TOXIC, SUNNY_DAY, HYPER_BEAM, PROTECT, RAIN_DANCE, GIGA_DRAIN, SOLARBEAM, RETURN, PSYCHIC_M, SHADOW_BALL, DOUBLE_TEAM, EARTH_POWER, GIGA_IMPACT, SANDSTORM, DAZZLINGLEAM, AERIAL_ACE, FACADE, REST, SEED_BOMB, FLASH, CUT, ZEN_HEADBUTT, SWORDS_DANCE, SUBSTITUTE, ENDURE, SWAGGER, SLEEP_TALK, SIGNAL_BEAM
+	; end

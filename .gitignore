@@ -1,0 +1,85 @@
+# generated
+*.tx
+*.o
+
+# precompiled python
+*.pyc
+*$py.class
+
+# no binaries
+*.exe
+
+# roms
+*.gbc
+*.gb
+
+# for any of the poor souls with save game files in their working directory
+*.sgm
+*.sav
+*.rtc
+*.sn0
+*.sn1
+*.sn2
+*.sn3
+*.sn4
+*.sn5
+*.sn6
+*.sn7
+*.sn8
+*.sn9
+
+# rgbds extras
+*.map
+*.sym
+
+# compare.sh
+baserom.txt
+pokecrystal.txt
+
+# for vim configuration
+# url: http://www.vim.org/scripts/script.php?script_id=441
+.lvimrc
+# swap files for vim
+.*.swp
+# swap files for gedit
+*~
+
+# pokemon-reverse-engineering-tools
+extras/
+
+# for map connections
+crowdmap/
+
+Cygwin.bat
+
+*.png
+
+gfx/pics/mantyke/frames.asm
+gfx/pics/mincinno/bitmask.asm
+
+gfx/pics/chatot/back.2bpp
+gfx/pics/chatot/front.2bpp
+gfx/pics/cinccino/back.2bpp
+gfx/pics/cinccino/front.2bpp
+gfx/pics/cryogonal/back.2bpp
+gfx/pics/cryogonal/front.2bpp
+gfx/pics/kecleon/back.2bpp
+gfx/pics/kecleon/front.2bpp
+gfx/pics/mantyke/front.2bpp
+gfx/pics/minccino/back.2bpp
+gfx/pics/minccino/front.2bpp
+gfx/pics/munchlax/front.2bpp
+gfx/pics/pikipek/front.2bpp
+gfx/pics/rattata/front.2bpp
+gfx/pics/snubbull/front.2bpp
+gfx/pics/toucannon/front.2bpp
+gfx/pics/trumbeak/front.2bpp
+
+gfx/tilesets/*.2bpp
+
+gfx/trainers/bug_catcher_f.2bpp
+gfx/trainers/catman.2bpp
+gfx/trainers/cooltrainer_f.2bpp
+gfx/trainers/jessie_james.2bpp
+gfx/trainers/mom.2bpp
+gfx/trainers/waitress.2bpp

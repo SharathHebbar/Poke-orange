@@ -1,0 +1,19 @@
+	db KINGDRA ; 230
+
+	db  75,  95,  95,  85,  95,  95
+	;   hp  atk  def  spd  sat  sdf
+
+	db WATER, DRAGON
+	db 45 ; catch rate
+	db NO_ITEM ; item 1
+	db DRAGON_SCALE ; item 2
+	db FEMALE_50 ; gender
+	db 20 ; step cycles to hatch
+	dn 7, 7 ; frontpic dimensions
+
+	db MEDIUM_FAST ; growth rate
+	dn AMPHIBIAN, REPTILE ; egg groups
+
+	; tmhm
+	tmhm DRAGON_PULSE, WATER_PULSE, TOXIC, HAIL, WHIRLPOOL, ICE_BEAM, BLIZZARD, HYPER_BEAM, DRAGONBREATH, PROTECT, RAIN_DANCE, RETURN, BUBBLEBEAM, DOUBLE_TEAM, GIGA_IMPACT, FLASH_CANNON, FACADE, REST, SURF, DIVE, WATERFALL, HEADBUTT, BODY_SLAM, SUBSTITUTE, ENDURE, SWAGGER, SLEEP_TALK, ATTRACT, SIGNAL_BEAM
+	; end
