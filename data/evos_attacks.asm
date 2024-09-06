@@ -153,18 +153,21 @@ SquirtleEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 4, TAIL_WHIP
-	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 1, TAIL_WHIP
+	db 5, BUBBLE
+	db 9, WITHDRAW
 	db 13, WATER_GUN
 	db 17, BITE
 	db 21, RAPID_SPIN
-	db 25, PROTECT
+	db 25, AURORA_BEAM
 	db 29, CRUNCH
-	db 33, RAIN_DANCE
-	db 36, WATER_PULSE
-	db 40, TAKE_DOWN ; SKULL_BASH
-	db 44, HYDRO_PUMP
+	db 33, PROTECT
+	db 36, ICE_BEAM
+	db 40, RAIN_DANCE
+	db 44, DARK_PULSE
+	db 48, DRAGON_PULSE
+	db 52, HYDRO_PUMP
+	db 56, OUTRAGE
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
@@ -172,19 +175,22 @@ WartortleEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, TAIL_WHIP
+	db 1, WATER_PULSE
 	db 1, BUBBLE
-	db 4, TAIL_WHIP
-	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 5, BUBBLE
+	db 9, WITHDRAW
 	db 13, WATER_GUN
 	db 19, BITE
-	db 24, RAPID_SPIN
-	db 29, PROTECT
-	db 33, CRUNCH
-	db 37, RAIN_DANCE
-	db 40, WATER_PULSE
-	db 44, TAKE_DOWN ; SKULL_BASH
-	db 48, HYDRO_PUMP
+	db 23, RAPID_SPIN
+	db 27, AURORA_BEAM
+	db 31, CRUNCH
+	db 35, PROTECT
+	db 39, ICE_BEAM
+	db 43, RAIN_DANCE
+	db 47, DARK_PULSE
+	db 51, DRAGON_PULSE
+	db 55, HYDRO_PUMP
+	db 60, OUTRAGE
 	db 0 ; no more level-up moves
 
 BlastoiseEvosAttacks:
@@ -194,18 +200,20 @@ BlastoiseEvosAttacks:
 	db 1, TAIL_WHIP
 	db 1, BUBBLE
 	db 1, WITHDRAW
-	db 4, TAIL_WHIP
-	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 5, BUBBLE
+	db 9, WITHDRAW
 	db 13, WATER_GUN
 	db 19, BITE
-	db 25, RAPID_SPIN
-	db 31, PROTECT
-	db 35, CRUNCH
-	db 41, RAIN_DANCE
-	db 45, WATER_PULSE
-	db 49, TAKE_DOWN ; SKULL_BASH
-	db 54, HYDRO_PUMP
+	db 23, RAPID_SPIN
+	db 27, AURORA_BEAM
+	db 31, CRUNCH
+	db 35, PROTECT
+	db 41, ICE_BEAM
+	db 45, RAIN_DANCE
+	db 49, DARK_PULSE
+	db 53, DRAGON_PULSE
+	db 57, HYDRO_PUMP
+	db 63, OUTRAGE
 	db 0 ; no more level-up moves
 
 CaterpieEvosAttacks:
@@ -235,11 +243,13 @@ ButterfreeEvosAttacks:
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
-	db 23, WHIRLWIND
-	db 28, GUST
-	db 32, PSYBEAM
-	db 36, SAFEGUARD
-	db 40, SIGNAL_BEAM ; SILVER_WIND
+	db 22, WHIRLWIND
+	db 26, PSYBEAM
+	db 30, GIGA_DRAIN
+	db 34, SAFEGUARD
+	db 38, SIGNAL_BEAM
+	db 42, PSYCHIC_M
+	db 46, AEROBLAST
 	db 0 ; no more level-up moves
 
 WeedleEvosAttacks:
@@ -265,15 +275,16 @@ BeedrillEvosAttacks:
 	db 1, BUG_BITE
 	db 1, FURY_ATTACK
 	db 10, FURY_ATTACK
-	db 12, HORN_ATTACK
+	db 12, RAGE
 	db 15, FOCUS_ENERGY
-	db 17, TWINEEDLE
-	db 20, RAGE
+	db 18, TWINEEDLE
+	db 20, AERIAL_ACE
 	db 24, PURSUIT
 	db 28, PIN_MISSILE
 	db 32, AGILITY
-	db 36, SIGNAL_BEAM ; ENDEAVOR
+	db 36, LEECH_LIFE
 	db 40, POISON_JAB
+	db 46, TOXIC
 	db 0 ; no more level-up moves
 
 PidgeyEvosAttacks:
@@ -299,7 +310,7 @@ PidgeottoEvosAttacks:
 	db 1, SAND_ATTACK
 	db 1, GUST
 	db 5, MUD_SLAP
-	db 9, GUST
+	db 9, GUST 
 	db 12, QUICK_ATTACK
 	db 15, MUD_SLAP ; FEATHERDANCE
 	db 20, WHIRLWIND
@@ -358,7 +369,7 @@ RaticateEvosAttacks:
 	db 29, FAINT_ATTACK
 	db 34, SUPER_FANG
 	db 39, DOUBLE_EDGE
-	db 50, SUBSTITUTE ; ENDEAVOR
+	db 50, SUBSTITUTE
 	db 0 ; no more level-up moves
 
 SpearowEvosAttacks:

@@ -1,12 +1,12 @@
 EvolutionMoves::
 	db NO_MOVE      ; BULBASAUR
-	db NO_MOVE      ; IVYSAUR
+	db SPORE        ; IVYSAUR
 	db PETAL_DANCE  ; VENUSAUR
 	db NO_MOVE      ; CHARMANDER
-	db NO_MOVE      ; CHARMELEON
+	db DRAGON_TAIL  ; CHARMELEON
 	db WING_ATTACK  ; CHARIZARD
 	db NO_MOVE      ; SQUIRTLE
-	db NO_MOVE      ; WARTORTLE
+	db WATER_PULSE  ; WARTORTLE
 	db FLASH_CANNON ; BLASTOISE
 	db NO_MOVE      ; CATERPIE
 	db HARDEN       ; METAPOD
@@ -18,7 +18,7 @@ EvolutionMoves::
 	db NO_MOVE      ; PIDGEOTTO
 	db NO_MOVE      ; PIDGEOT
 	db NO_MOVE      ; RATTATA
-	db SCARY_FACE   ; RATICATE
+	db FLAME_WHEEL  ; RATICATE
 	db NO_MOVE      ; SPEAROW
 	db NO_MOVE      ; FEAROW
 	db NO_MOVE      ; EKANS

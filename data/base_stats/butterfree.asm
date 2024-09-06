@@ -1,9 +1,9 @@
 	db BUTTERFREE ; 012
 
-	db  60,  45,  50,  70,  90,  80
+	db  60,  45,  70,  90, 100,  85
 	;   hp  atk  def  spd  sat  sdf
 
-	db BUG, FLYING
+	db BUG, PSYCHIC
 	db 45 ; catch rate
 	db NO_ITEM ; item 1
 	db SILVERPOWDER ; item 2
